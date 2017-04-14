@@ -95,3 +95,15 @@ Spyder is an open source cross-platform Integrated Development Environment (IDE)
 Spyder is an acronym for **S**cientific **PY**thon **D**evelopment **E**nvi**R**onment. The editor is a multi-language editor with a function/class browser. It has support for code analysis (using pyflakes and pylint), code completion, horizontal and vertical splitting, etc.
 
 You can choose to use IPython or Python consoles. It also integarates Matplotlib figures and contains a variable explorer (much like the ‘Environment’ in RStudio).
+
+
+# Exercice 1.2.1 : Create your first Python Notebook
+
+1) Create your first notebook in the directory "...\formation-python\2017-04-27-training"
+2) Rename it "121-my-first-notebook-*yourfirstname*-*yourlastname*.ipynb"
+3) Try to get this result :
+
+![my-first-notebook](../../../images/121-my-first-notebook.png)
+
+4) Save it and push it (with Git)
+5) See your result on [Github](https://github.com/ey-lab/formation-python)

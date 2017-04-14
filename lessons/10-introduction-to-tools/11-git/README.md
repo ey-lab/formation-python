@@ -136,3 +136,13 @@ Here are the basic terms you should familiarize yourself with :
 - **Commit** : A commit records a snapshot of your staging area, making it ready to be pushed to an online repository.
 
 - **Push** : git push will take all of your locally committed changes and upload them to a remote repository's branch.
+
+
+
+# Exercice 1.1.1 : Clone a Git repository
+
+1) Create your own GitHub account
+2) Configure Git to deal with the EY proxy
+3) Configure your name and e-mail address in Git
+4) Setup your an SSH public key from your machine to the GitHub server
+5) Clone the [Git repository corresponding to this training](https://github.com/ey-lab/formation-python)
