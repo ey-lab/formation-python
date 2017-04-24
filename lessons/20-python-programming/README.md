@@ -31,7 +31,7 @@ Python variables do not need explicit declaration to reserve memory space. The d
 
 ```python
 >>> my_variable = 1
->>> print my_variable
+>>> print(my_variable)
 1
 ```
 
@@ -39,9 +39,9 @@ You can also assign several variables in the same line :
 
 ```python
 >>> a, b, c = 1, 2, "john"
->>> print a
+>>> print(a)
 1
->>> print c
+>>> print(c)
 john
 ```
 
@@ -134,12 +134,12 @@ The plus (+) sign is the string concatenation operator and the asterisk (*) is t
 Example :
 
 ```python
-print str          # Prints complete string
-print str[0]       # Prints first character of the string
-print str[2:5]     # Prints characters starting from 3rd to 5th
-print str[2:]      # Prints string starting from 3rd character
-print str * 2      # Prints string two times
-print str + "TEST" # Prints concatenated string
+print(str)          # Prints complete string
+print(str[0])       # Prints first character of the string
+print(str[2:5])     # Prints characters starting from 3rd to 5th
+print(str[2:])      # Prints string starting from 3rd character
+print(str * 2)      # Prints string two times
+print(str + "TEST") # Prints concatenated string
 ```
 
 This will produce the following result :
@@ -165,12 +165,12 @@ Example :
 list = [ 'abcd', 786 , 2.23, 'john', 70.2 ]
 tinylist = [123, 'john']
 
-print list          # Prints complete list
-print list[0]       # Prints first element of the list
-print list[1:3]     # Prints elements starting from 2nd till 3rd 
-print list[2:]      # Prints elements starting from 3rd element
-print tinylist * 2  # Prints list two times
-print list + tinylist # Prints concatenated lists
+print(list)           # Prints complete list
+print(list[0])        # Prints first element of the list
+print(list[1:3])      # Prints elements starting from 2nd till 3rd 
+print(list[2:])       # Prints elements starting from 3rd element
+print(tinylist * 2)   # Prints list two times
+print(list + tinylist) # Prints concatenated lists
 ```
 
 This produce the following result :
@@ -194,12 +194,12 @@ The main differences between lists and tuples are: Lists are enclosed in bracket
 tuple = ( 'abcd', 786 , 2.23, 'john', 70.2  )
 tinytuple = (123, 'john')
 
-print tuple           # Prints complete list
-print tuple[0]        # Prints first element of the list
-print tuple[1:3]      # Prints elements starting from 2nd till 3rd
-print tuple[2:]       # Prints elements starting from 3rd element
-print tinytuple * 2   # Prints list two times
-print tuple + tinytuple # Prints concatenated lists
+print(tuple)             # Prints complete list
+print(tuple[0])          # Prints first element of the list
+print(tuple[1:3])        # Prints elements starting from 2nd till 3rd
+print(tuple[2:])         # Prints elements starting from 3rd element
+print(tinytuple * 2)     # Prints list two times
+print(tuple + tinytuple) # Prints concatenated lists
 ```
 
 This produce the following result :
@@ -226,11 +226,11 @@ dict[2]     = "This is two"
 
 tinydict = {'name': 'john','code':6734, 'dept': 'sales'}
 
-print dict['one']       # Prints value for 'one' key
-print dict[2]           # Prints value for 2 key
-print tinydict          # Prints complete dictionary
-print tinydict.keys()   # Prints all the keys
-print tinydict.values() # Prints all the values
+print(dict['one'])         # Prints value for 'one' key
+print(dict[2])             # Prints value for 2 key
+print(tinydict)            # Prints complete dictionary
+print(tinydict.keys())     # Prints all the keys
+print(tinydict.values())   # Prints all the values
 ```
 
 This produce the following result :
@@ -247,7 +247,7 @@ Dictionaries have no concept of order among elements. It is incorrect to say tha
 
 # Exercise 2.1 : Manipulate Python typing
 
-Manipulate the different types of variables with the Python Notebook : [21-variables-typing](http://localhost:8888/notebooks/Desktop/formation-python/lessons/20-introduction-to-python-programming/notebooks/21-variables_typing.ipynb).
+Manipulate the different types of variables with the Python Notebook : [21-variables-typing](lessons/20-python-programming/notebooks/21-variables_typing.ipynb).
 
 
 ## Operations on lists
@@ -296,7 +296,7 @@ Example :
 
 ```python
 >>> a = [66.25, 333, 333, 1, 1234.5]
->>> print a.count(333), a.count(66.25), a.count('x')
+>>> print(a.count(333), a.count(66.25), a.count('x'))
 2 1 0
 >>> a.insert(2, -1)
 >>> a.append(333)
@@ -444,11 +444,10 @@ Library for high-quality 2D scientific graphics
 Module allowing to carry out classic models of statistics
 
 
-
-
 # Exercise 2.2 : Create your own functions
 
-See an example of function in the Python Notebook : [22-define-functions](http://localhost:8888/notebooks/Desktop/formation-python/lessons/20-introduction-to-python-programming/notebooks/22-define-functions.ipynb) and create your own one.
+See an example of function in the Python Notebook : [22-define-functions](lessons/20-python-programming/notebooks/22-define-functions.ipynb) and create your own one.
+
 
 # Exercise 2.3 : Create your own functions
 

@@ -30,10 +30,10 @@ class Employee:
       Employee.emp_count += 1
 
    def display_count(self):
-      print "Total Employee %d" % Employee.emp_count
+      print("Total Employee %d" % Employee.emp_count)
 
    def display_employee(self):
-      print "Name : ", self.name,  ", Salary: ", self.salary
+      print("Name : ", self.name,  ", Salary: ", self.salary)
 ```
 
 - The variable `emp_count` is a class variable whose value is shared among all instances of a this class, this can be accessed as `Employee.emp_count` from inside the class or outside the class
@@ -61,7 +61,7 @@ You access the object's attributes using the dot operator with object. Class var
 ```python
 emp1.display_employee()
 emp2.display_employee()
-print "Total Employee %d" % Employee.emp_count
+print("Total Employee %d" % Employee.emp_count)
 ```
 
 This produces the following result :

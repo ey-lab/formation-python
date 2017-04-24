@@ -13,15 +13,15 @@ Following the successive steps :
 
 ![anaconda-installation](../../../images/anaconda-installation.png)
 
-## Python 2.7 or 3.0 ?
+## Python 2.7 or 3.6 ?
 
 Many beginning Python users are wondering with which version of Python they should start.
 
 Actually, there is currently no "right" or "wrong" as long as both Python 2.7.x and Python 3.x support the libraries that you are planning to use. However, there are some differences between those two most popular versions of Python.
 
-For scientific work, version 2.7.x is currently the most adapted one (more modules and existing codes), and it is more mature and proven. Whereas Python 3.x represents the future, it is equipped with an improved language but it is still in development. That's why we recommend to adopt the 2.7.x Python version for the moment.
+For scientific work, version 2.7.x is still used because there are more modules and existing codes. Whereas Python 3.x represents the future, it is equipped with an improved language but it is still in development.
 
-**Be careful** : the code that works with Python 2.7.x does not necessarily work with Python 3.x. You can see a simple example below.
+**Be careful** : the code that works with Python 2.7.x does not necessarily work with Python 3.x You can see a simple example below.
 
 ![difference-python27-python3](../../../images/difference-python27-python3.jpg)
 
@@ -82,7 +82,7 @@ The structure of a Python notebook is as follows :
 
 #### Managing the Kernel
 
-The notebook is capable of running code in a wide range of languages, but each notebook is associated with a single Kernel (code is run in a separate process called the Kernel). This notebook is associated with the IPython kernel, therefore runs Python code. IPython supports Python 2.7 and 3.3 or newer.
+The notebook is capable of running code in a wide range of languages, but each notebook is associated with a single Kernel (code is run in a separate process called the Kernel). This notebook is associated with the IPython kernel, therefore runs Python code. IPython supports Python 2.7 and 3.6 or newer.
 
 The Kernel can be interrupted or restarted. It maintains the state of the notebook's computations. You can reset this state by restarting the Kernel. This is done by clicking on a button in the toolbar above.
 

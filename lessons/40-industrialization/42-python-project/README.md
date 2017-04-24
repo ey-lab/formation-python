@@ -37,7 +37,7 @@ import my_project.utils as utils
 
 def main(arg1, arg2):
     result = utils.my_sum(arg1, arg2)
-    print 'The result is ' + str(result)
+    print('The result is ' + str(result))
 
 if __name__ == '__main__':
     main(1, 2)
@@ -108,7 +108,16 @@ The `unittest.TestCase` class provides several assert methods to check for and r
 | assertNotIsInstance(a, b) | not isinstance(a, b) |
 
 
-## Exercice 4.2.2 : Creating and running a unit test
+#### SetUp and TearDown
+
+#########################################
+
+A COMPLETER
+
+#########################################
+
+
+## Exercise 4.2.2 : Creating and running a unit test
 
 **1) Create a test directory :** in your *python-project* directory, create a directory named *test_suite*
 
@@ -130,17 +139,11 @@ You should obtain this result :
 
 *N.B. : Note that the 'Toggle auto-test' button allows to rerun the tests on code changes*
 
-**6) Create a new test :
+**5) Create a new test :**
 
-- Add a new module named `math.py` and insert this function inside :
+- Modify your *my_sum()* function to manage having some input parameters which are not numbers (by catching them with a *if/else* block)
 
-#########################################
-```python
-
-```
-#########################################
-
-- Then test this function and run all tests in the same time
+- Then create a new test to check how this function reacts with no numbers input parameters (e.g. string parameters)
 
 
 

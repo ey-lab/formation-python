@@ -42,7 +42,7 @@ But a demonstration is better than a long speech, so let's start Pycharm !
 
 ## Exercise 4.1 : Creating a Python project with Pycharm
 
-Solving a simple quadratic equation : $$$ax^2 + bx + c = 0$$$
+Solving a simple quadratic equation : `a.x² + b.x + c = 0`.
 
 **1) Creating and running your first Python project :**
 
