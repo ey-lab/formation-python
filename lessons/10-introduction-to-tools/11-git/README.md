@@ -1,5 +1,15 @@
 # Git
 
+## What is Git ?
+
+By far, Git is the most widely used modern version control system in the world today. Git is a mature, actively maintained open source project originally developed in 2005 by Linus Torvalds, the famous creator of the Linux operating system kernel.
+
+Git is, first and foremost, a Version Control System (VCS). There are many version control systems out there : CVS, SVN, Mercurial, Fossil, and, of course, Git.
+
+## Download Git for Windows
+
+The first thing to do is to [download Git for Windows](https://git-for-windows.github.io/) in order to be able to use Git Bash in your Windows environment.
+
 ## Configure Git to use a proxy
 
 Before using Git, some proxy parameters have to be changed to make running Git to EY.
@@ -139,7 +149,7 @@ Here are the basic terms you should familiarize yourself with :
 
 
 
-# Exercice 1.1.1 : Clone a Git repository
+# Exercise 1.1.1 : Clone a Git repository
 
 1) Create your own GitHub account
 2) Configure Git to deal with the EY proxy

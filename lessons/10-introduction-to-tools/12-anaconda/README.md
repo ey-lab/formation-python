@@ -96,8 +96,18 @@ Spyder is an acronym for **S**cientific **PY**thon **D**evelopment **E**nvi**R**
 
 You can choose to use IPython or Python consoles. It also integarates Matplotlib figures and contains a variable explorer (much like the ‘Environment’ in RStudio).
 
+## Python tutorials
 
-# Exercice 1.2.1 : Create your first Python Notebook
+A lot of Python tutorials exist on Internet, you can find these ones from which this course was largely inspired :
+
+- https://docs.python.org/2.7/tutorial/
+- https://www.tutorialspoint.com/python/index.htm
+- https://wiki.python.org/moin/BeginnersGuide/Programmers
+- https://www.learnpython.org/
+- etc.
+
+
+# Exercise 1.2.1 : Create your first Python Notebook
 
 1) Create your first notebook in the directory "...\formation-python\2017-04-27-training"
 2) Rename it "121-my-first-notebook-*yourfirstname*-*yourlastname*.ipynb"

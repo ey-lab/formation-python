@@ -245,9 +245,9 @@ This is two
 
 Dictionaries have no concept of order among elements. It is incorrect to say that the elements are "out of order"; they are simply unordered.
 
-# Exercice 2.1.1 : Manipulate Python typing
+# Exercise 2.1 : Manipulate Python typing
 
-Manipulate the different types of variables with the Python Notebook : [21-variables-typing.ipynb](http://localhost:8888/notebooks/Desktop/formation-python/lessons/20-introduction-to-python-programming/notebooks/21-variables_typing.ipynb)
+Manipulate the different types of variables with the Python Notebook : [21-variables-typing](http://localhost:8888/notebooks/Desktop/formation-python/lessons/20-introduction-to-python-programming/notebooks/21-variables_typing.ipynb).
 
 
 ## Operations on lists
@@ -446,6 +446,10 @@ Module allowing to carry out classic models of statistics
 
 
 
-# Exercice 2.1 : Create your own function
+# Exercise 2.2 : Create your own functions
 
-See an example of function in the Python Notebook : [22-define-functions.ipynb](http://localhost:8888/notebooks/Desktop/formation-python/lessons/20-introduction-to-python-programming/notebooks/22-define-functions.ipynb) and create your own one.
+See an example of function in the Python Notebook : [22-define-functions](http://localhost:8888/notebooks/Desktop/formation-python/lessons/20-introduction-to-python-programming/notebooks/22-define-functions.ipynb) and create your own one.
+
+# Exercise 2.3 : Create your own functions
+
+See an example of a module import with the Python Notebook : [23-import-module](http://localhost:8888/notebooks/Desktop/formation-python/lessons/20-introduction-to-python-programming/notebooks/23-import-module.ipynb).
