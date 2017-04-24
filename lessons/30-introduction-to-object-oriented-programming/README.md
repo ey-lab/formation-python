@@ -127,4 +127,4 @@ To discover Python's function decorators in depth, see for example [this tutoria
 
 # Exercise 3.1 : Manipulate Python classes objects
 
-Manipulate Python oriented objects with the Python Notebook : [31-oriented-object](lessons/20-introduction-to-python-programming/notebooks/31-oriented-object.ipynb).
+Manipulate Python oriented objects with the Python Notebook : [31-oriented-object](/lessons/30-object-oriented-programming/notebooks/31-oriented-object.ipynb).
