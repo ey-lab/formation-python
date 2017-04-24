@@ -21,7 +21,7 @@ Pycharm has very interesting features :
 
 - **Debugging and testing** : use the powerful debugger. Create and run your tests with coding assistance and a GUI-based test runner.
 
-- ** VCS, Deployment and Remote Development ** : save time with a unified UI for working with Git, SVN, Mercurial or other version control systems. Run and debug your application on remote machines.
+- **VCS, Deployment and Remote Development** : save time with a unified UI for working with Git, SVN, Mercurial or other version control systems. Run and debug your application on remote machines.
 
 - **Database tools** : access Oracle, SQL Server, PostgreSQL, MySQL and other databases right from the IDE. Rely on PyCharm’s help when editing SQL code, running queries, browsing data, and altering schemas.
 
@@ -40,12 +40,14 @@ Here is screenshot of what Pycharm looks like :
 But a demonstration is better than a long speech, so let's start Pycharm !
 
 
-## Exercise 4.1
+## Exercise 4.1 : Creating a Python project with Pycharm
 
 Solving a simple quadratic equation : $$$ax^2 + bx + c = 0$$$
 
 **1) Creating and running your first Python project :**
 
+- create a directory where you will store your project (e.g. )
+- create a new project with Pycharm (*"File"* and then *"New Project..."*) by selecting this directory
 - create a Python file named *solver.py*
 - write the following block of code inside :
 
