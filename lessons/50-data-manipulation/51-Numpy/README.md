@@ -79,11 +79,11 @@ b ** 2 # return the square
  b == 0 # return a boolean array
  b > a # return a boolean array
  ```
-  - **Matrix multiplication**
+ - **Matrix multiplication**
   ```python
   a.dot(b) # return matricial product
   ```
-  - **Universal Functions**
+ - **Universal Functions**
    ```python
    np.exp(b) # return pointwised exponential
    np.sin(b) # return pointwised sinus
