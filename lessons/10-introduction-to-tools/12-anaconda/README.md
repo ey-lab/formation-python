@@ -115,5 +115,5 @@ A lot of Python tutorials exist on Internet, you can find these ones from which 
 
 ![my-first-notebook](../../../images/121-my-first-notebook.png)
 
-4) Save it and push it (with Git)
+4) Save it and push it to the GitHub repository
 5) See your result on [Github](https://github.com/ey-lab/formation-python)

@@ -119,13 +119,13 @@ Here are the basic terms you should familiarize yourself with :
 
 - **Repository / Repo** : This is the project's source code that resides on github.com's servers. You cannot modify the contents of this repository directly unless you were the one who created it in the first place.
 
-- **Fork** : Forking a project will create a copy of the original repository that you can modify as you please. Forked projects will appear in your own github.com account.
-
 - **Cloning** : this will clone an online repository to your hard drive so you may begin working on your modifications. This local copy is called your local repository.
 
-- **Branch** : A branch is a different version of the same project. In the case of T2DMIT, you will see 2 branches : the master branch and the development branch.
+- **Fork** : Forking a project will create a copy of the original repository that you can modify as you please. Forked projects will appear in your own github.com account.
 
-- **Remote** : A remote is simply an alias pointing to an online repository. It is much easier to work with such aliases than typing in the complete URL of online repositories every single time.
+- **Branch** : A branch is a different version of the same project.
+
+- **Remote** : A remote is simply an alias pointing to an online repository. It is much easier to work with such aliases than typing in the complete URL of online repositories every single time. `origin` is an alias on your system for a particular remote repository.
 
 - **Staging Area** : Whenever you want to update your online repository (the one appearing in your github.com account), you first need to add your changes to your staging area. Modifying files locally will not automatically update your staging area's contents.
 
@@ -147,7 +147,15 @@ Here are the basic terms you should familiarize yourself with :
 
 - **Push** : git push will take all of your locally committed changes and upload them to a remote repository's branch.
 
+#### Untracked files
 
+A `.gitignore` file specifies intentionally untracked files that Git should ignore. Files already tracked by Git are not affected.
+
+You can open it with the command (in your working directory) :
+
+```bash
+vim .gitignore
+```
 
 # Exercise 1.1.1 : Clone a Git repository
 

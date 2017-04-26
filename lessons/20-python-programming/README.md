@@ -11,8 +11,8 @@ PEP8 gives coding conventions for the Python code : [Style Guide for Python Code
 - The statements are separated by semicolons : `;` or (and preferably) by line breaks
 - Comments are preceded by the symbol `#`
 - The blocks of instructions are delimited by their alignment on the same tabulation :
- - this particularity of the language compels to create well-structured codes
- - it is recommended to use spaces to achieve indentation
+	- this particularity of the language compels to create well-structured codes
+	- it is recommended to use spaces to achieve indentation
 
 Example :
 
@@ -135,7 +135,7 @@ The plus (+) sign is the string concatenation operator and the asterisk (*) is t
 Example :
 
 ```python
-str = 'Hello World!'
+str = 'Hello World'
 print(str)          # Prints complete string
 print(str[0])       # Prints first character of the string
 print(str[2:5])     # Prints characters starting from 3rd to 5th
@@ -147,24 +147,24 @@ print(str + "TEST") # Prints concatenated string
 This will produce the following result :
 
 ```python
-Hello World!
+Hello World
 H
 llo
-llo World!
-Hello World!Hello World!
-Hello World!TEST
+llo World
+Hello WorldHello World
+Hello WorldTEST
 ```
 
 #### List
 
-A list contains items separated by commas and enclosed within square brackets ([]). One particularity of Python is that all the items belonging to a list can be of different data type.
+A list contains items separated by commas and enclosed within square brackets (`[ ]`). One particularity of Python is that all the items belonging to a list can be of different data type.
 
 The values stored in a list can be accessed using the slice operator (`[ ]` and `[:]`) with indexes starting at 0 in the beginning of the list and working their way to end -1. The plus (+) sign is the list concatenation operator, and the asterisk (*) is the repetition operator.
 
 Example :
 
 ```python
-list = [ 'abcd', 786 , 2.23, 'john', 70.2 ]
+list = ['abcd', 786 , 2.23, 'john', 70.2]
 tinylist = [123, 'john']
 
 print(list)           # Prints complete list
@@ -342,7 +342,7 @@ We can obtain the same result with:
 squares = [x**2 for x in range(10)]
 ```
 
-This is also equivalent to `squares = map(lambda x: x**2, range(10))`, but it’s more concise and readable.
+This is also equivalent to `squares = map(lambda x: x**2, range(10))`, but it's more concise and readable.
 
 This is also possible to add some conditions :
 
@@ -353,9 +353,11 @@ This is also possible to add some conditions :
 
 ## Functional Programming Tools
 
-There are three built-in functions that are very useful when used with lists: filter(), map(), and reduce().
+There are three built-in functions that are very useful when used with lists: `filter()`, `map()`, and `reduce()`.
 
-	filter(function, sequence)
+```python
+filter(function, sequence)
+```
 
 Returns a sequence consisting of those items from the sequence for which function(item) is true.
 
@@ -367,7 +369,9 @@ Returns a sequence consisting of those items from the sequence for which functio
 [3, 5, 6, 9, 10, 12, 15, 18, 20, 21, 24]
 ```
 
-	map(function, sequence)
+```python
+map(function, sequence)
+```
 
 Calls function(item) for each of the sequence’s items and returns a list of the return values.
 
@@ -379,7 +383,9 @@ Calls function(item) for each of the sequence’s items and returns a list of th
 [1, 8, 27, 64, 125, 216, 343, 512, 729, 1000]
 ```
 
-	reduce(function, sequence)
+```python
+reduce(function, sequence)
+```
 
 Returns a single value constructed by calling the binary function function on the first two items of the sequence, then on the result and the next item, and so on.
 

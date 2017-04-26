@@ -36,7 +36,7 @@ class Employee:
       print("Name : ", self.name,  ", Salary: ", self.salary)
 ```
 
-- The variable `emp_count` is a class variable whose value is shared among all instances of a this class, this can be accessed as `Employee.emp_count` from inside the class or outside the class
+- The variable `emp_count` is a class variable whose value is shared among all instances of the class, this can be accessed as `Employee.emp_count` from inside the class or outside the class
 
 - The first method `__init__()` is a special method, which is called class constructor or initialization method that Python calls when you create a new instance of this class
 
@@ -104,7 +104,14 @@ Every Python class keeps following built-in attributes and they can be accessed 
 - `__bases__` : A possibly empty tuple containing the base classes, in the order of their occurrence in the base class list.
 
 
-## To go further
+
+# Exercise 3.1 : Manipulate Python classes objects
+
+Manipulate Python oriented objects with the Python Notebook : [31-oriented-object](/lessons/30-object-oriented-programming/notebooks/31-oriented-object.ipynb).
+
+
+
+# To go further
 
 #### Static and class methods
 
@@ -123,8 +130,3 @@ This concept is also an advanced one. For more details, see for example [this tu
 In the context of design patterns, **decorators** dynamically alter the functionality of a function, method or class without having to directly use subclasses. This is ideal when you need to extend the functionality of functions that you don't want to modify. This is possible to implement the decorator pattern anywhere, but Python facilitates the implementation by providing much more expressive features and syntax for that.
 
 To discover Python's function decorators in depth, see for example [this tutorial](http://thecodeship.com/patterns/guide-to-python-function-decorators/).
-
-
-# Exercise 3.1 : Manipulate Python classes objects
-
-Manipulate Python oriented objects with the Python Notebook : [31-oriented-object](/lessons/30-object-oriented-programming/notebooks/31-oriented-object.ipynb).
