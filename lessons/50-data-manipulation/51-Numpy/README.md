@@ -83,7 +83,7 @@ b ** 2 # return the square
   ```python
   a.dot(b) # return matricial product
   ```
-   - **Universal Functions**
+  - **Universal Functions**
    ```python
    np.exp(b) # return pointwised exponential
    np.sin(b) # return pointwised sinus
