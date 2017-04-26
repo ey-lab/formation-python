@@ -249,7 +249,7 @@ Dictionaries have no concept of order among elements. It is incorrect to say tha
 
 # Exercise 2.1 : Manipulate Python typing
 
-Manipulate the different types of variables with the Python Notebook : [21-variables-typing](/lessons/20-python-programming/notebooks/21-variables_typing.ipynb).
+Manipulate the different types of variables with the Python Notebook : [21-variables-typing](/lessons/20-python-programming/notebooks/21-variables-typing.ipynb).
 
 
 ## Operations on lists
@@ -456,4 +456,4 @@ See an example of function in the Python Notebook : [22-define-functions](/lesso
 
 # Exercise 2.3 : Create your own functions
 
-See an example of a module import with the Python Notebook : [23-import-module](/lessons/20-introduction-to-python-programming/notebooks/23-import-module.ipynb).
+See an example of a module import with the Python Notebook : [23-import-module](/lessons/20-python-programming/notebooks/23-import-module.ipynb).
