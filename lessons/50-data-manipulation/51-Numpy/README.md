@@ -22,12 +22,12 @@ NumPy's main object is the homogeneous multidimensional array. It is a table of 
 import numpy as np
 ```
 
-We can then declare a ```ndarray``` using the command
+One way to declare a ```ndarray``` is from a Python list using the command
 ```python
 a = np.array([1, 2, 3])
 ```
 
-We can inspect an array through thanks to multiple methods such as
+We can inspect an array thanks to multiple methods such as
 ```python
 a.ndim # return the number of dimensions in the array as an int
 a.shape # return the shape of the array as a tuple
