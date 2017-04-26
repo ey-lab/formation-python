@@ -33,3 +33,20 @@ a.ndim # return the number of dimensions in the array as an int
 a.shape # return the shape of the array as a tuple
 a.size # return the number of element in the array
 ```
+## Numpy Array declaration
+Multiple function are available to declare NumPy arrays such as
+```python
+array
+zeros
+zeros_like
+ones
+ones_like
+empty
+empty_like
+arange
+linspace
+numpy.random.rand
+numpy.random.randn
+fromfunction
+fromfile
+```
