@@ -17,7 +17,12 @@
 
 ## II Introduction to Machine Learning with Python
 ### 1) Manipulating datas with Numpy and Pandas
+ - [NumPy](lessons/50-data-manipulation/51-Numpy)
+ - [Pandas](lessons/50-data-manipulation/52-Pandas)
 
 ### 2) Datavizualization with Matplotlib
+ - [Datavizualization](lessons/60-data-visualization)
 
 ### 3) Machine Learning with Scikit-Learn
+ - [Machine Learning](lessons/70-machine-learning)
+ 
