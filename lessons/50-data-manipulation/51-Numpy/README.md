@@ -66,7 +66,7 @@ b = np.diag([-2, 0.3, -4, 5])
 ```
 
 All basic operations can be performed on NumPy arrays such as
- - Arithmetical operations
+ - **Arithmetical operations**
  ```python
 a + b # return sum
 b - a # return difference
@@ -74,17 +74,17 @@ a * b # return pointwised multiplication
 b ** 2 # return the square
 3 * a
 ```
- - Logical operations
+ - **Logical operations**
  ```python
- b == 0
- b > a
+ b == 0 # return a boolean array
+ b > a # return a boolean array
  ```
-  - Matrix multiplication
+  - **Matrix multiplication**
   ```python
-  a.dot(b)
+  a.dot(b) # return matricial product
   ```
-   - Universal Functions
+   - **Universal Functions**
    ```python
-   np.exp(b)
-   np.sin(b)
+   np.exp(b) # return pointwised exponential
+   np.sin(b) # return pointwised sinus
    ```
