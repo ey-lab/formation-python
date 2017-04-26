@@ -43,13 +43,13 @@ if __name__ == '__main__':
     main(1, 2)
 ```
 
-** 3) Test your package : ** you can test that your Python package is ok or not by running the *main.py* script (with Pycharm, the Python console or with a command line)
+**3) Test your package :** you can test that your Python package is ok or not by running the *main.py* script (with Pycharm, the Python console or with a command line)
 
 What is missing to make your code running ?
 
-** 4) Add the **`__init__.py`** file :** create an empty file named `__init__.py` inside
+**4) Add the**`__init__.py`** file :** create an empty file named `__init__.py` inside
 
-** 5) Test again your package : ** you can test that your Python package is now ok by running the code from the question 3
+**5) Test again your package :** you can test that your Python package is now ok by running the code from the question 3
 
 
 ## Unit tests with Python
