@@ -17,7 +17,7 @@ pip install numpy
 For Windows users consider using a free Python distribution such as Anaconda.
 
 ## NumPy Basics
-NumPy's main object is the homogeneous multidimensional array. It is a table of elements (usually numbers), all of the same type, indexed by a tuple of positive integers. NumPy's array classis called ```ndarray```. In order to manipulate NumPy array structure we first have to import numpy package.
+NumPy's main object is the homogeneous multidimensional array. It is a table of elements (usually numbers), all of the same type, indexed by a tuple of positive integers. NumPy's array class is called ```ndarray```. In order to manipulate NumPy array structure we first have to import numpy package.
 ```python
 import numpy as np
 ```
@@ -59,7 +59,7 @@ fromfile
 ```
 
 ## NumPy Basic Operations
-Declaring to arrays
+Declare 2 arrays
 ```python
 a = np.ones((4,4))
 b = np.diag([-2, 0.3, -4, 5])
@@ -67,18 +67,18 @@ b = np.diag([-2, 0.3, -4, 5])
 
 All basic operations can be performed on NumPy arrays such as
  - **Arithmetical operations**
- ```python
-a + b # return sum
-b - a # return difference
-a * b # return pointwised multiplication
-b ** 2 # return the square
-3 * a
-```
+  ```python
+  a + b # return sum
+  b - a # return difference
+  a * b # return pointwised multiplication
+  b ** 2 # return the square
+  3 * a
+  ```
  - **Logical operations**
- ```python
- b == 0 # return a boolean array
- b > a # return a boolean array
- ```
+  ```python
+  b == 0 # return a boolean array
+  b > a # return a boolean array
+  ```
  - **Matrix multiplication**
   ```python
   a.dot(b) # return matricial product
