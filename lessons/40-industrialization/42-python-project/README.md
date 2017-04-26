@@ -47,7 +47,7 @@ if __name__ == '__main__':
 
 What is missing to make your code running ?
 
-**4) Add the**`__init__.py`** file :** create an empty file named `__init__.py` inside
+**4) Add the**`__init__.py`**file :** create an empty file named `__init__.py` inside
 
 **5) Test again your package :** you can test that your Python package is now ok by running the code from the question 3
 
