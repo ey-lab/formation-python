@@ -67,24 +67,26 @@ b = np.diag([-2, 0.3, -4, 5])
 
 All basic operations can be performed on NumPy arrays such as
  - **Arithmetical operations**
-  ```python
-  a + b # return sum
-  b - a # return difference
-  a * b # return pointwised multiplication
-  b ** 2 # return the square
-  3 * a
-  ```
+   ```python
+   a + b # return sum
+   b - a # return difference
+   a * b # return pointwised multiplication
+   b ** 2 # return the square
+   3 * a
+   ```
  - **Logical operations**
-  ```python
-  b == 0 # return a boolean array
-  b > a # return a boolean array
-  ```
+   ```python
+   b == 0 # return a boolean array
+   b > a # return a boolean array
+   ```
  - **Matrix multiplication**
-  ```python
-  a.dot(b) # return matricial product
-  ```
+   ```python
+   a.dot(b) # return matricial product
+   ```
  - **Universal Functions**
    ```python
    np.exp(b) # return pointwised exponential
    np.sin(b) # return pointwised sinus
    ```
+   
+**Note that all these operations are vectorial. It means that when calling such a function the operation is ran by a low level computing language such as C, C++ or Fortran, it makes this operation very quick to execute. **
