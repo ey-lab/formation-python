@@ -59,4 +59,32 @@ fromfile
 ```
 
 ## NumPy Basic Operations
-All basic operations can be performed on 
+Declaring to arrays
+```python
+a = np.ones((4,4))
+b = np.diag([-2, 0.3, -4, 5])
+```
+
+All basic operations can be performed on NumPy arrays such as
+ - Arithmetical operations
+ ```python
+a + b # return sum
+b - a # return difference
+a * b # return pointwised multiplication
+b ** 2 # return the square
+3 * a
+```
+ - Logical operations
+ ```python
+ b == 0
+ b > a
+ ```
+  - Matrix multiplication
+  ```python
+  a.dot(b)
+  ```
+   - Universal Functions
+   ```python
+   np.exp(b)
+   np.sin(b)
+   ```
