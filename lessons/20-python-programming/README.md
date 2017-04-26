@@ -2,7 +2,7 @@
 
 ## Syntax
 
-Python was designed to be a highly readable language and aims to be simple and consistent in the design of its syntax. 
+Python was designed to be a highly readable language and aims to be simple and consistent in the design of its syntax.
 
 PEP8 gives coding conventions for the Python code : [Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/). For example, it is recommended to respect a maximum line length of 79 characters.
 
@@ -17,6 +17,7 @@ PEP8 gives coding conventions for the Python code : [Style Guide for Python Code
 Example :
 
 ```python
+# This is a comment
 def foo(x):
     if x == 0:
         my_function1()
@@ -134,6 +135,7 @@ The plus (+) sign is the string concatenation operator and the asterisk (*) is t
 Example :
 
 ```python
+str = 'Hello World!'
 print(str)          # Prints complete string
 print(str[0])       # Prints first character of the string
 print(str[2:5])     # Prints characters starting from 3rd to 5th
@@ -358,7 +360,8 @@ There are three built-in functions that are very useful when used with lists: fi
 Returns a sequence consisting of those items from the sequence for which function(item) is true.
 
 ```python
->>> def f(x): return x % 3 == 0 or x % 5 == 0
+>>> def f(x):
+>>> 	return x % 3 == 0 or x % 5 == 0
 ...
 >>> filter(f, range(2, 25))
 [3, 5, 6, 9, 10, 12, 15, 18, 20, 21, 24]
@@ -369,7 +372,8 @@ Returns a sequence consisting of those items from the sequence for which functio
 Calls function(item) for each of the sequence’s items and returns a list of the return values.
 
 ```python
->>> def cube(x): return x*x*x
+>>> def cube(x):
+>>> 	return x*x*x
 ...
 >>> map(cube, range(1, 11))
 [1, 8, 27, 64, 125, 216, 343, 512, 729, 1000]
@@ -380,7 +384,8 @@ Calls function(item) for each of the sequence’s items and returns a list of th
 Returns a single value constructed by calling the binary function function on the first two items of the sequence, then on the result and the next item, and so on.
 
 ```python
->>> def add(x,y): return x+y
+>>> def add(x,y):
+>>> 	return x+y
 ...
 >>> reduce(add, range(1, 11))
 55
