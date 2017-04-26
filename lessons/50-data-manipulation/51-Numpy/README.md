@@ -33,7 +33,14 @@ a.ndim # return the number of dimensions in the array as an int
 a.shape # return the shape of the array as a tuple
 a.size # return the number of element in the array
 ```
-## Numpy Array declaration
+
+Wa can select an element from an array by calling the array with the index to pick starting from 0
+```python
+a[2] # return the 3rd element of the array
+a[0] # return the 1st element of the array
+```
+
+## NumPy Array declaration
 Multiple function are available to declare NumPy arrays such as
 ```python
 array
@@ -50,3 +57,6 @@ numpy.random.randn
 fromfunction
 fromfile
 ```
+
+## NumPy Basic Operations
+All basic operations can be performed on 
