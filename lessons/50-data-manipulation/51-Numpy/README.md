@@ -90,4 +90,4 @@ All basic operations can be performed on NumPy arrays such as
    ```
    
 ### Important mark   
-All these operations are *vectorial*. One particularity of these operations is that when they are called, the execution is performed by a low level computing language such as C, C++ or Fortran, consequence of what it makes these operations extremely time efficient.
+All these operations are said *vectorial*. One particularity of these kind of operations is that when they are called, the execution is performed by low level computing languages such as C, C++ or Fortran, consequence of what it makes these operations extremely time efficient.
