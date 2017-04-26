@@ -454,6 +454,6 @@ Module allowing to carry out classic models of statistics
 See an example of function in the Python Notebook : [22-define-functions](/lessons/20-python-programming/notebooks/22-define-functions.ipynb) and create your own one.
 
 
-# Exercise 2.3 : Create your own functions
+# Exercise 2.3 : Import a module in Python
 
 See an example of a module import with the Python Notebook : [23-import-module](/lessons/20-python-programming/notebooks/23-import-module.ipynb).
