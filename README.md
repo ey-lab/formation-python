@@ -20,7 +20,7 @@
  - [NumPy](lessons/50-data-manipulation/51-Numpy)
  - [Pandas](lessons/50-data-manipulation/52-Pandas)
 
-### 2) Datavizualization with Matplotlib
+### 2) Datavisualization with Matplotlib
  - [Datavisualization](lessons/60-data-visualization)
 
 ### 3) Machine Learning with Scikit-Learn
