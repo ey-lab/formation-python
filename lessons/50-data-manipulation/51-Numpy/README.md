@@ -6,6 +6,9 @@ NumPy is the fundamental package for scientific computing with Python. It is wid
 
 NumPy library uses many dependencies developped in primitive low level languages such as C,C++ or Fortran. This particularity significantly speeds up the exexcution of all NumPy functions. This feature has to be kept in mind at all time when programming with NumPy in order to benefit from the highest power/speed of NumPy.
 
+## Official documentation
+http://www.numpy.org/
+
 ## Install NumPy
 ### Mac / Linux
 Pre-built binary package can be installed using pip.
@@ -89,5 +92,38 @@ All basic operations can be performed on NumPy arrays such as
    np.sin(b) # return pointwised sinus
    ```
    
-### Important mark   
-All these operations are said *vectorial*. One particularity of these kind of operations is that when they are called, the execution is performed by low level computing languages such as C, C++ or Fortran, consequence of what it makes these operations extremely time efficient.
+### Important Remark   
+All these operations are said *vectorial*. One particularity of these kind of operations is that when they are called, the execution is performed by low level computing languages such as C, C++ or Fortran, consequence of what it makes these operations extremely time efficient. Keep it in mind, this is probably the feature that makes NumPy so popular.
+
+## Indexing, Slicing and Iterating
+In order to select elements from arrays it is possible to perform it in 2 ways (very similar to MatLab).
+```python
+temperatures = 35 * np.random.rand(50) - 10 # declare an array
+```
+ - **Indexing**
+   ```python
+   temperatures[0] # returns the first element of the array
+   temperatures[:10] # returns an array consisting of 10 first elements of the initial array
+   temperatures[5:10] # returns an array consisting of the elements from 5th to 9th of the initial array
+   temperatures[-1] # returns the last element in the array 
+   temperatures[-5:] # returns an array consisting the last 5 elements of the initial array
+   ```
+ - **Slicing**
+   ```python
+   temperatures[temperatures > 0] # returns an array consisting of the positive calues cf the initial array
+   ```
+## Data manipulation
+NumPy allows to perform easily perform actions on data arrays such as
+ - **Sorting**
+   ```python
+   np.sort(temperatures) # returns the sorted array
+   np.argsort(temperatures) # returns the index of the sorted array
+   ```
+ - **Aggregating**
+   ```python
+   temperatures.max() # returns the maximum value
+   temperatures.min() # returns the minimum value
+   temperatures.mean() # returns the average
+   temperatures.std() # returns the  standard deviation
+   ```
+   
