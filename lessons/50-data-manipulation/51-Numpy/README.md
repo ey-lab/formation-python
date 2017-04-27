@@ -98,14 +98,29 @@ In order to select elements from arrays it is possible to perform it in 2 ways (
 temperatures = 35 * np.random.rand(50) - 10 # declare an array
 ```
  - Indexing
-  ```python
-  temperatures[0] # returns the first element of the array
-  temperatures[:10] # returns an array consisting of 10 first elements of the initial array
-  temperatures[5:10] # returns an array consisting of the elements from 5th to 9th of the initial array
-  temperatures[-1] # returns the last element in the array 
-  temeperatures[-5:] # returns an array consisting the last 5 elements of the initial array
-  ```
+   ```python
+   temperatures[0] # returns the first element of the array
+   temperatures[:10] # returns an array consisting of 10 first elements of the initial array
+   temperatures[5:10] # returns an array consisting of the elements from 5th to 9th of the initial array
+   temperatures[-1] # returns the last element in the array 
+   temperatures[-5:] # returns an array consisting the last 5 elements of the initial array
+   ```
  - Slicing
-    ```python
-  temperatures[temperatures > 0] # returns an array consisting of the positive calues cf the initial array
-  ```
+   ```python
+   temperatures[temperatures > 0] # returns an array consisting of the positive calues cf the initial array
+   ```
+## Data manipulation
+NumPy allows to perform easily perform actions on data arrays such as
+ - Sorting
+   ```python
+   np.sort(temperatures) # returns the sorted array
+   np.argsort(temperatures) # returns the index of the sorted array
+   ```
+ - Aggregating
+   ```python
+   temperatures.max() # returns the maximum value
+   temperatures.min() # returns the minimum value
+   temperatures.mean() # returns the average
+   temperatures.std() # returns the  standard deviation
+   ```
+   
