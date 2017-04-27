@@ -21,7 +21,7 @@
  - [Pandas](lessons/50-data-manipulation/52-Pandas)
 
 ### 2) Datavizualization with Matplotlib
- - [Datavizualization](lessons/60-data-visualization)
+ - [Datavisualization](lessons/60-data-visualization)
 
 ### 3) Machine Learning with Scikit-Learn
  - [Machine Learning](lessons/70-machine-learning)
