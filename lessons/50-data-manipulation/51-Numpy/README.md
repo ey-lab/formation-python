@@ -6,6 +6,9 @@ NumPy is the fundamental package for scientific computing with Python. It is wid
 
 NumPy library uses many dependencies developped in primitive low level languages such as C,C++ or Fortran. This particularity significantly speeds up the exexcution of all NumPy functions. This feature has to be kept in mind at all time when programming with NumPy in order to benefit from the highest power/speed of NumPy.
 
+## Official documentation
+http://www.numpy.org/
+
 ## Install NumPy
 ### Mac / Linux
 Pre-built binary package can be installed using pip.
