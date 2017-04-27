@@ -89,5 +89,7 @@ All basic operations can be performed on NumPy arrays such as
    np.sin(b) # return pointwised sinus
    ```
    
-### Important mark   
-All these operations are said *vectorial*. One particularity of these kind of operations is that when they are called, the execution is performed by low level computing languages such as C, C++ or Fortran, consequence of what it makes these operations extremely time efficient.
+### Important Remark   
+All these operations are said *vectorial*. One particularity of these kind of operations is that when they are called, the execution is performed by low level computing languages such as C, C++ or Fortran, consequence of what it makes these operations extremely time efficient. Keep it in mind, this is probably one of the features that makes NumPy so popular.
+
+## Indexing, Slicing and Iterating
