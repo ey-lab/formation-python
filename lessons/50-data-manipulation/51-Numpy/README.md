@@ -90,6 +90,22 @@ All basic operations can be performed on NumPy arrays such as
    ```
    
 ### Important Remark   
-All these operations are said *vectorial*. One particularity of these kind of operations is that when they are called, the execution is performed by low level computing languages such as C, C++ or Fortran, consequence of what it makes these operations extremely time efficient. Keep it in mind, this is probably one of the features that makes NumPy so popular.
+All these operations are said *vectorial*. One particularity of these kind of operations is that when they are called, the execution is performed by low level computing languages such as C, C++ or Fortran, consequence of what it makes these operations extremely time efficient. Keep it in mind, this is probably the feature that makes NumPy so popular.
 
 ## Indexing, Slicing and Iterating
+In order to select elements from arrays it is possible to perform it in 2 ways (very similar to MatLab).
+```python
+temperatures = 35 * np.random.rand(50) - 10 # declare an array
+```
+ - Indexing
+  ```python
+  temperatures[0] # returns the first element of the array
+  temperatures[:10] # returns an array consisting of 10 first elements of the initial array
+  temperatures[5:10] # returns an array consisting of the elements from 5th to 9th of the initial array
+  temperatures[-1] # returns the last element in the array 
+  temeperatures[-5:] # returns an array consisting the last 5 elements of the initial array
+  ```
+ - Slicing
+    ```python
+  temperatures[temperatures > 0] # returns an array consisting of the positive calues cf the initial array
+  ```
