@@ -100,7 +100,7 @@ In order to select elements from arrays it is possible to perform it in 2 ways (
 ```python
 temperatures = 35 * np.random.rand(50) - 10 # declare an array
 ```
- - Indexing
+ - **Indexing**
    ```python
    temperatures[0] # returns the first element of the array
    temperatures[:10] # returns an array consisting of 10 first elements of the initial array
@@ -108,18 +108,18 @@ temperatures = 35 * np.random.rand(50) - 10 # declare an array
    temperatures[-1] # returns the last element in the array 
    temperatures[-5:] # returns an array consisting the last 5 elements of the initial array
    ```
- - Slicing
+ - **Slicing**
    ```python
    temperatures[temperatures > 0] # returns an array consisting of the positive calues cf the initial array
    ```
 ## Data manipulation
 NumPy allows to perform easily perform actions on data arrays such as
- - Sorting
+ - **Sorting**
    ```python
    np.sort(temperatures) # returns the sorted array
    np.argsort(temperatures) # returns the index of the sorted array
    ```
- - Aggregating
+ - **Aggregating**
    ```python
    temperatures.max() # returns the maximum value
    temperatures.min() # returns the minimum value
