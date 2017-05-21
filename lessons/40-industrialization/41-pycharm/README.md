@@ -46,7 +46,7 @@ Solving a simple quadratic equation : `a.x² + b.x + c = 0`.
 
 **1) Creating and running your first Python project :**
 
-- create a directory where you will store your project (e.g. )
+- create a directory where you will store your project
 - create a new project with Pycharm (*"File"* and then *"New Project..."*) by selecting this directory
 - create a Python file named *solver.py*
 - write the following block of code inside :

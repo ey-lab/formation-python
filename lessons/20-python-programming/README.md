@@ -247,10 +247,6 @@ This is two
 
 Dictionaries have no concept of order among elements. It is incorrect to say that the elements are "out of order"; they are simply unordered.
 
-# Exercise 2.1 : Manipulate Python typing
-
-Manipulate the different types of variables with the Python Notebook : [21-variables-typing](/lessons/20-python-programming/notebooks/21-variables-typing.ipynb).
-
 
 ## Operations on lists
 
@@ -350,6 +346,11 @@ This is also possible to add some conditions :
 >>> [(x, y) for x in [1,2,3] for y in [3,1,4] if x != y]
 [(1, 3), (1, 4), (2, 3), (2, 1), (2, 4), (3, 1), (3, 4)]
 ```
+
+# Exercise 2.1 : Manipulate Python typing
+
+Manipulate the different types of variables with the Python Notebook : [21-variables-typing](/lessons/20-python-programming/notebooks/21-variables-typing.ipynb).
+
 
 ## Functional Programming Tools
 

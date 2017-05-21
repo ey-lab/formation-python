@@ -38,6 +38,13 @@ Configure a global proxy if all access to all repos require this proxy :
 git config --global http.proxy http://empweb2.ey.net:8080
 git config --global https.proxy https://empweb2.ey.net:8443
 ```
+
+For those using a VPN, wifi (or wired) EY :
+http://gitlab.freylab.net/lab/utils/raw/master/client-utils/proxy/set-git-proxy.sh
+
+For those using 4G :
+http://gitlab.freylab.net/lab/utils/raw/master/client-utils/proxy/unset-git-proxy.sh
+
 #### Reset Git proxy to default configuration
 Unset global proxy configuration :
 ```bash
