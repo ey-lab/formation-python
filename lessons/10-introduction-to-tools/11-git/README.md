@@ -55,6 +55,10 @@ git config --global --unset https.proxy
 #### Reset proxy environment variables
 Delete proxy environment variables :
 ```bash
+REG delete HKCU\Environment /F /V HTTP_PROXY
+REG delete HKCU\Environment /F /V HTTPS_PROXY
+REG delete HKCU\Environment /F /V ALL_PROXY
+
 export HTTP_PROXY=
 export HTTPS_PROXY=
 export ALL_PROXY=
